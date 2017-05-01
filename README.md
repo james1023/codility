@@ -16,7 +16,7 @@ Lesson 2
 
 [OddOccurrencesInArray]
 
-Find value that occurs in odd number of elements.
+Find value that occurs in odd number of elements.  
   A[0] = 9  A[1] = 3  A[2] = 9
   A[3] = 3  A[4] = 9  A[5] = 7
   A[6] = 9
