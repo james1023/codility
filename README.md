@@ -54,4 +54,24 @@ Given array A such that:
     A[1] = 1
     A[2] = 3
 the function should return 0.  
+  
+- MissingInteger  
+Find the minimal positive integer not occurring in a given sequence.  
+For example, given:
+  A[0] = 1
+  A[1] = 3
+  A[2] = 6
+  A[3] = 4
+  A[4] = 1
+  A[5] = 2
+the function should return 5.  
+  
+[Lesson 6 Sorting]  
+   
+- Distinct  
+Compute number of distinct values in an array.  
+A[0] = 2    A[1] = 1    A[2] = 1    A[3] = 2    A[4] = 3   A[5] = 1  
+the function should return 3, because there are 3 distinct values appearing in array A, namely 1, 2 and 3.   
+   
 
+   
