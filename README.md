@@ -27,14 +27,13 @@ For example, given array A = [3, 8, 9, 7, 6] and K = 3, the function should retu
 
 - PermMissingElem   
 Find the missing element in a given permutation.   
-  A[0] = 2  A[1] = 3  A[2] = 1  A[3] = 5 
+  A[0] = 2  A[1] = 3  A[2] = 1  A[3] = 5  
 the function should return 4, as it is the missing element.   
 
 - TapeEquilibrium  
 Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.  
-  A[0] = 3  A[1] = 1  A[2] = 2  A[3] = 4  A[4] = 3
-We can split this tape in four places:
-
+  A[0] = 3  A[1] = 1  A[2] = 2  A[3] = 4  A[4] = 3  
+We can split this tape in four places:  
 P = 1, difference = |3 − 10| = 7 
 P = 2, difference = |4 − 9| = 5 
 P = 3, difference = |6 − 7| = 1 
@@ -44,5 +43,15 @@ P = 4, difference = |10 − 3| = 7
 
 - PermCheck  
 Check whether array A is a permutation.  
-
+For example, given array A such that:
+    A[0] = 4
+    A[1] = 1
+    A[2] = 3
+    A[3] = 2
+the function should return 1.  
+Given array A such that:
+    A[0] = 4
+    A[1] = 1
+    A[2] = 3
+the function should return 0.  
 
